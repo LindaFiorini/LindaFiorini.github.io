@@ -1,4 +1,4 @@
-# Linda Fiorini personal website
+# Personal website
 
 
-   `https://lindafiorini95.github.io/`
+   `https://LindaFiorini.github.io/`
