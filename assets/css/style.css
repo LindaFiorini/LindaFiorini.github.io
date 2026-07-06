@@ -112,6 +112,8 @@ h3{margin:0 0 8px;font-size:1.2rem;line-height:1.25;letter-spacing:-.01em;font-w
 .card-number{display:block;margin-bottom:30px;color:var(--subtle);font-size:.76rem;font-weight:700;letter-spacing:.14em}
 .card p{color:var(--muted);margin:0}
 
+.pub-group-title{margin:40px 0 4px;font-family:Inter,sans-serif;font-size:.78rem;font-weight:650;letter-spacing:.12em;text-transform:uppercase;color:var(--subtle)}
+.pub-group-title:first-of-type{margin-top:8px}
 .pub-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .pub-item{display:grid;grid-template-columns:88px minmax(0,1fr);gap:22px;padding:24px 10px;border-bottom:1px solid var(--line);transition:border-color 160ms ease,background 160ms ease}
 .pub-year{color:var(--accent);font-weight:650;letter-spacing:.05em}
@@ -120,6 +122,10 @@ h3{margin:0 0 8px;font-size:1.2rem;line-height:1.25;letter-spacing:-.01em;font-w
 .method-cloud{display:flex;flex-wrap:wrap;gap:9px}.method-cloud span{display:inline-flex;padding:9px 13px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);font-size:.9rem;font-weight:550;color:var(--text)}
 .statement-section .container{padding:44px;border:1px solid var(--line);background:var(--panel-soft)}
 .statement-section h2{max-width:840px}.statement-section p:not(.eyebrow){max-width:720px;color:var(--muted);font-size:1.03rem}
+
+.personal-section{border-bottom:none;padding-bottom:56px}
+.personal-section h2{max-width:640px;font-style:italic}
+.personal-section p:not(.eyebrow){max-width:640px;color:var(--muted);font-size:1.03rem}
 .contact-intro{color:var(--muted);max-width:68ch;margin-bottom:24px}.contact-box{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.contact-box a{display:block;border:1px solid var(--line);background:var(--panel);padding:18px;text-decoration:none;transition:border-color 160ms ease,background 160ms ease}.contact-box span{display:block;color:var(--accent);font-size:.72rem;font-weight:650;letter-spacing:.12em;text-transform:uppercase}.contact-box strong{display:block;margin-top:8px;font-size:1rem;font-weight:600}
 .site-footer{padding:24px 0 36px}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--muted);font-size:.9rem}.footer-inner p{margin:0}
 
