@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lindafiorini95.github.io/sitemap.xml
