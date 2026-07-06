@@ -4,36 +4,35 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Linda Fiorini | Neuroscience, EEG & Machine Learning</title>
-  <meta name="description" content="Linda Fiorini is a PhD researcher in cognitive and computational neuroscience working on EEG, machine learning, digital health, affective computing, cognitive load and brain dynamics." />
+  <meta name="description" content="Linda Fiorini is a neuroscience researcher working with EEG, machine learning, digital health, affective computing, cognitive load, and brain dynamics." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://lindafiorini95.github.io/" />
+  <link rel="canonical" href="https://LindaFiorini.github.io/" />
+
   <meta property="og:title" content="Linda Fiorini | Neuroscience, EEG & Machine Learning" />
-  <meta property="og:description" content="Personal academic website of Linda Fiorini: EEG, machine learning, cognitive neuroscience, digital health and brain dynamics." />
+  <meta property="og:description" content="Personal academic website of Linda Fiorini: EEG, machine learning, cognitive neuroscience, digital health, and brain dynamics." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://lindafiorini95.github.io/" />
+  <meta property="og:url" content="https://LindaFiorini.github.io/" />
   <meta name="twitter:card" content="summary" />
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="theme-color" content="#f7f4ee" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Linda Fiorini",
-    "url": "https://lindafiorini95.github.io/",
-    "jobTitle": "PhD Researcher in Cognitive and Computational Neuroscience",
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "IMT School for Advanced Studies Lucca"
-    },
+    "url": "https://LindaFiorini.github.io/",
+    "jobTitle": "Neuroscience Researcher",
     "knowsAbout": [
-      "EEG",
-      "Cognitive neuroscience",
-      "Machine learning",
-      "Affective computing",
-      "Digital health",
-      "Cognitive load",
-      "Brain dynamics"
+      "EEG", "Cognitive neuroscience", "Computational neuroscience", "Machine learning",
+      "Affective computing", "Digital health", "Cognitive load", "Brain dynamics"
     ],
     "sameAs": [
+      "https://github.com/LindaFiorini",
       "https://www.linkedin.com/in/linda-fiorini-2a3212174/",
       "https://pubmed.ncbi.nlm.nih.gov/?term=Linda+Fiorini",
       "https://scholar.google.com/scholar?q=Linda+Fiorini"
@@ -42,146 +41,237 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <nav class="nav" aria-label="Main navigation">
-      <a class="logo" href="#top">Linda Fiorini</a>
-      <div class="nav-links">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">Linda Fiorini</a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div id="nav-links" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#methods">Methods</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle theme">Dark</button>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero section">
-      <div class="hero-copy">
-        <p class="eyebrow">Cognitive & Computational Neuroscience · EEG · Machine Learning</p>
-        <h1>Linda Fiorini</h1>
-        <p class="lead">
-          I am a neuroscience researcher working at the intersection of EEG, machine learning,
-          digital health and human cognition. My research focuses on brain dynamics, affective
-          computing, cognitive load, emotion regulation and electrophysiological markers of mental states.
-        </p>
-        <div class="cta-row">
-          <a class="button primary" href="#publications">View publications</a>
-          <a class="button secondary" href="#contact">Get in touch</a>
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Neuroscience · EEG · Machine Learning</p>
+          <h1>Linda Fiorini</h1>
+          <p class="subtitle">Researcher in cognitive and computational neuroscience.</p>
+          <p class="lead">
+            I study brain dynamics, cognition, and mental states using EEG, behavioural data,
+            machine learning, and computational modelling.
+          </p>
+
+          <div class="cta-row" aria-label="Primary links">
+            <a class="btn" href="#publications">Selected work</a>
+            <a class="btn btn-ghost" href="https://scholar.google.com/scholar?q=Linda+Fiorini" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn btn-ghost" href="https://github.com/LindaFiorini" target="_blank" rel="noopener">GitHub</a>
+          </div>
+
+          <div class="social-row" aria-label="Academic and professional links">
+            <a href="https://www.linkedin.com/in/linda-fiorini-2a3212174/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Linda+Fiorini" target="_blank" rel="noopener">PubMed</a>
+            <a href="https://scholar.google.com/scholar?q=Linda+Fiorini" target="_blank" rel="noopener">Scholar</a>
+          </div>
         </div>
+
+        <aside class="portrait-card" aria-label="Research profile summary">
+          <div class="portrait-topline">
+            <span>LF</span>
+            <span>EEG / Cognition / ML</span>
+          </div>
+          <div class="signal-panel" aria-hidden="true">
+            <svg viewBox="0 0 560 320" role="img" aria-label="Abstract EEG signal visualization">
+              <defs>
+                <linearGradient id="waveGradient" x1="0" x2="1" y1="0" y2="0">
+                  <stop offset="0%" stop-color="currentColor" stop-opacity="0.2"/>
+                  <stop offset="50%" stop-color="currentColor" stop-opacity="1"/>
+                  <stop offset="100%" stop-color="currentColor" stop-opacity="0.2"/>
+                </linearGradient>
+              </defs>
+              <path class="grid-line" d="M0 80H560M0 160H560M0 240H560" />
+              <path class="wave wave-one" d="M0 164 C36 110, 70 210, 105 160 S175 112, 210 160 S280 210, 315 160 S385 108, 420 160 S490 214, 560 155" />
+              <path class="wave wave-two" d="M0 210 C45 190, 60 252, 110 214 S185 175, 230 220 S305 260, 350 210 S430 162, 475 208 S530 250, 560 220" />
+              <circle cx="105" cy="160" r="6" />
+              <circle cx="315" cy="160" r="6" />
+              <circle cx="475" cy="208" r="6" />
+            </svg>
+          </div>
+          <div class="portrait-footer">
+            <p>Current focus</p>
+            <strong>Electrophysiology, interpretable models, and human-centred digital health.</strong>
+          </div>
+        </aside>
       </div>
-      <aside class="hero-card" aria-label="Profile summary">
-        <h2>Research profile</h2>
-        <ul>
-          <li>PhD researcher in cognitive, computational and social neuroscience</li>
-          <li>EEG analysis, ERP/time-frequency methods and brain dynamics</li>
-          <li>Machine learning for neural and physiological data</li>
-          <li>Digital health, affective computing and cognitive workload</li>
-        </ul>
-      </aside>
     </section>
 
-    <section id="research" class="section split">
-      <div>
-        <p class="eyebrow">Research</p>
-        <h2>What I study</h2>
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div class="section-title">
+          <p class="eyebrow">About</p>
+          <h2>Signals, cognition, and computational models.</h2>
+        </div>
+        <div class="prose">
+          <p>
+            I am a neuroscience researcher with a background in psychology, neuroscience, EEG analysis,
+            and machine learning. My work focuses on how neural and physiological signals can be used to
+            study cognitive states, emotion regulation, fatigue, cognitive load, and human–technology interaction.
+          </p>
+          <p>
+            I am particularly interested in research questions that connect electrophysiological mechanisms
+            with interpretable computational methods, from ERP and time-frequency analyses to digital phenotyping
+            and modelling of brain dynamics.
+          </p>
+        </div>
       </div>
-      <div class="content-grid">
-        <article>
-          <h3>EEG and brain dynamics</h3>
-          <p>
-            I use electrophysiological signals to study neural activity related to perception,
-            cognition, emotion regulation, cognitive load and fatigue.
-          </p>
-        </article>
-        <article>
-          <h3>Machine learning for neuroscience</h3>
-          <p>
-            I develop and evaluate computational pipelines for EEG-based classification,
-            prediction and interpretability, including applications to affective computing.
-          </p>
-        </article>
-        <article>
-          <h3>Digital health and human states</h3>
-          <p>
-            I am interested in combining neural, physiological and behavioural signals to model
-            wellbeing, workload and adaptive human-computer interaction.
-          </p>
-        </article>
+    </section>
+
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research interests</p>
+          <h2>What I work on</h2>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>EEG markers of cognition</h3>
+            <p>Neural activity related to cognitive load, fatigue, attention, emotion regulation, and ongoing brain dynamics.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Machine learning for neural data</h3>
+            <p>Classification, prediction, and interpretation pipelines for EEG, physiological, behavioural, and multimodal signals.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Digital health and affective computing</h3>
+            <p>Modelling wellbeing, workload, and adaptive human–computer interaction through digital and physiological markers.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="publications" class="section">
-      <p class="eyebrow">Selected work</p>
-      <h2>Publications and projects</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Extended Cognitive Load Induces Fast Neural Responses and Ongoing Slow-Wave Activity</h3>
-          <p>Work on neural responses to cognitive load and ongoing EEG dynamics.</p>
-          <a href="https://www.eneuro.org/content/12/2/ENEURO.0354-24.2024.abstract" target="_blank" rel="noopener">Read article</a>
-        </article>
-        <article class="card">
-          <h3>EEG-based emotional valence and emotion regulation classification</h3>
-          <p>Machine learning approaches for classifying emotional valence and regulation strategies from EEG.</p>
-          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11473962/" target="_blank" rel="noopener">Read article</a>
-        </article>
-        <article class="card">
-          <h3>Modality predictability modulation and sensory processing</h3>
-          <p>Electrophysiological study of sensory processing and modality predictability.</p>
-          <a href="https://pubmed.ncbi.nlm.nih.gov/36640619/" target="_blank" rel="noopener">Read on PubMed</a>
-        </article>
-        <article class="card">
-          <h3>Pre-stimulus EEG activity for sensory classification</h3>
-          <p>EEG and machine learning work on pre-stimulus activity in auditory and visual sensory classification.</p>
-          <a href="https://ieeexplore.ieee.org/document/10796755" target="_blank" rel="noopener">View IEEE record</a>
-        </article>
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Publications and projects</h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.com/scholar?q=Linda+Fiorini" target="_blank" rel="noopener">Full list on Google Scholar →</a>
+        </div>
+
+        <ol class="pub-list">
+          <li class="pub-item">
+            <div class="pub-year">2025</div>
+            <div>
+              <h3>Extended cognitive load induces fast neural responses and ongoing slow-wave activity</h3>
+              <p>EEG study of sustained cognitive load and ongoing neural dynamics.</p>
+              <a href="https://www.eneuro.org/content/12/2/ENEURO.0354-24.2024.abstract" target="_blank" rel="noopener">Read article</a>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-year">2024</div>
+            <div>
+              <h3>EEG-based emotional valence and emotion regulation classification</h3>
+              <p>Machine learning approaches for classifying emotional valence and regulation strategies from EEG.</p>
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11473962/" target="_blank" rel="noopener">Read article</a>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-year">2023</div>
+            <div>
+              <h3>Modality predictability and sensory processing</h3>
+              <p>Electrophysiological work on sensory processing, anticipation, and modality predictability.</p>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/36640619/" target="_blank" rel="noopener">PubMed record</a>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-year">2024</div>
+            <div>
+              <h3>Pre-stimulus EEG activity for sensory classification</h3>
+              <p>Machine learning analysis of pre-stimulus EEG activity in auditory and visual sensory classification.</p>
+              <a href="https://ieeexplore.ieee.org/document/10796755" target="_blank" rel="noopener">IEEE record</a>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
-    <section id="experience" class="section split">
-      <div>
-        <p class="eyebrow">Experience</p>
-        <h2>Methods and skills</h2>
-      </div>
-      <div class="tag-cloud" aria-label="Skills">
-        <span>EEG preprocessing</span>
-        <span>ERP analysis</span>
-        <span>Time-frequency analysis</span>
-        <span>Machine learning</span>
-        <span>Python</span>
-        <span>Digital phenotyping</span>
-        <span>Affective computing</span>
-        <span>Wearable sensors</span>
-        <span>Computational neuroscience</span>
-        <span>Scientific writing</span>
+    <section id="methods" class="section section-alt">
+      <div class="container section-grid">
+        <div class="section-title">
+          <p class="eyebrow">Methods</p>
+          <h2>Tools and expertise</h2>
+        </div>
+        <div class="method-cloud" aria-label="Methods and skills">
+          <span>EEG preprocessing</span>
+          <span>ERP analysis</span>
+          <span>Time–frequency analysis</span>
+          <span>Machine learning</span>
+          <span>Python</span>
+          <span>Digital phenotyping</span>
+          <span>Affective computing</span>
+          <span>Wearable sensors</span>
+          <span>Computational modelling</span>
+          <span>Statistical modelling</span>
+          <span>Scientific writing</span>
+          <span>Human–computer interaction</span>
+        </div>
       </div>
     </section>
 
-    <section class="section highlight">
-      <p class="eyebrow">Public engagement</p>
-      <h2>Science communication</h2>
-      <p>
-        I also contribute to public engagement activities on neuroscience, artificial intelligence
-        and brain-computer interaction, with the goal of making neuroscience accessible outside academia.
-      </p>
+    <section class="section statement-section">
+      <div class="container">
+        <p class="eyebrow">Current direction</p>
+        <h2>From neural signals to interpretable models of cognition and wellbeing.</h2>
+        <p>
+          I am interested in research environments that combine neuroscience, computational methods,
+          physiological signals, and translational questions in digital health or human-centred technology.
+        </p>
+      </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Get in touch</h2>
-      <p>
-        For collaborations, research opportunities or academic enquiries, you can reach me through
-        LinkedIn or add your preferred professional email address here.
-      </p>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/linda-fiorini-2a3212174/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://scholar.google.com/scholar?q=Linda+Fiorini" target="_blank" rel="noopener">Google Scholar search</a>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Linda+Fiorini" target="_blank" rel="noopener">PubMed search</a>
+    <section id="contact" class="section contact-section">
+      <div class="container section-grid">
+        <div class="section-title">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+        </div>
+        <div>
+          <p class="contact-intro">
+            For collaborations, research opportunities, or academic enquiries, you can reach me through my professional profiles.
+          </p>
+          <div class="contact-box">
+            <a href="https://www.linkedin.com/in/linda-fiorini-2a3212174/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Professional profile</strong></a>
+            <a href="https://github.com/LindaFiorini" target="_blank" rel="noopener"><span>GitHub</span><strong>Code and projects</strong></a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Linda+Fiorini" target="_blank" rel="noopener"><span>PubMed</span><strong>Biomedical publications</strong></a>
+            <a href="https://scholar.google.com/scholar?q=Linda+Fiorini" target="_blank" rel="noopener"><span>Scholar</span><strong>Publication search</strong></a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>© 2026 Linda Fiorini. Built with GitHub Pages.</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Linda Fiorini</p>
+      <p>Built with GitHub Pages</p>
+    </div>
   </footer>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://lindafiorini95.github.io/sitemap.xml
+Sitemap: https://LindaFiorini.github.io/sitemap.xml
