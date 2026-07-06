@@ -1,4 +1,4 @@
-# Linda Fiorini — personal academic website
+# Linda Fiorini: personal academic website
 
 Static GitHub Pages site for https://LindaFiorini.github.io/
 

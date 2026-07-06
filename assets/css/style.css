@@ -87,7 +87,7 @@ h3{margin:0 0 8px;font-size:1.2rem;line-height:1.25;letter-spacing:-.01em;font-w
 .portrait-topline{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;color:var(--muted);font-size:11px;font-weight:650;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid var(--line)}
 .portrait-topline span:first-child{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);color:var(--text);font-family:"Source Serif 4",Georgia,serif;font-size:14px;font-weight:650;letter-spacing:-.02em;background:var(--panel-soft)}
 .portrait-frame{aspect-ratio:3/4;overflow:hidden;background:var(--panel-soft)}
-.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:78% 38%;display:block}
+.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center 22%;display:block}
 .portrait-footer{padding:16px;border-top:1px solid var(--line)}
 .portrait-footer p{margin:0 0 6px;color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:650}
 .portrait-footer strong{display:block;font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:1.05rem;line-height:1.3;letter-spacing:-.01em}
